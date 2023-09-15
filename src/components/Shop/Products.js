@@ -33,4 +33,5 @@ const Products = (props) => {
     </section>
   );
 };
+
 export default Products;

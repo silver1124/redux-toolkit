@@ -40,4 +40,5 @@ const CartItem = (props) => {
     </li>
   );
 };
+
 export default CartItem;

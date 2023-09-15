@@ -11,6 +11,7 @@ const CartButton = (props) => {
   const toggleCartHandler = () => {
     dispatch(uiActions.toggle())
   }
+
   return (
     <button onClick={toggleCartHandler} className={classes.button}>
       <span>My Cart</span>
@@ -18,4 +19,5 @@ const CartButton = (props) => {
     </button>
   );
 };
+
 export default CartButton;

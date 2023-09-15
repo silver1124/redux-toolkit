@@ -26,4 +26,5 @@ const Cart = (props) => {
     </Card>
   );
 };
+
 export default Cart;
